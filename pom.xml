@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>com</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>CRUDHIBERNATE</name>
+    <packaging>war</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <junit.version>5.9.2</junit.version>
+
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/antlr/antlr -->
+        <dependency>
+            <groupId>antlr</groupId>
+            <artifactId>antlr</artifactId>
+            <version>2.7.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy -->
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.8.17</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.2</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.21.9</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.fasterxml/classmate -->
+        <dependency>
+            <groupId>com.fasterxml</groupId>
+            <artifactId>classmate</artifactId>
+            <version>1.3.4</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.dom4j/org.motechproject.org.dom4j -->
+        <dependency>
+            <groupId>org.dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.hibernate.common/hibernate-commons-annotations -->
+        <dependency>
+            <groupId>org.hibernate.common</groupId>
+            <artifactId>hibernate-commons-annotations</artifactId>
+            <version>5.0.4.Final</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.3.7.Final</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.jboss/jandex -->
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jandex</artifactId>
+            <version>2.0.5.Final</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.23.1-GA</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/javax.activation/javax.activation-api -->
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>javax.activation-api</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.jboss.logging/jboss-logging -->
+        <dependency>
+            <groupId>org.jboss.logging</groupId>
+            <artifactId>jboss-logging</artifactId>
+            <version>3.3.2.Final</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.jboss.spec.javax.transaction/jboss-transaction-api_1.3_spec -->
+        <dependency>
+            <groupId>org.jboss.spec.javax.transaction</groupId>
+            <artifactId>jboss-transaction-api_1.2_spec</artifactId>
+            <version>1.1.1.Final</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+        <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+        <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>javax.persistence-api</artifactId>
+            <version>2.2</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
